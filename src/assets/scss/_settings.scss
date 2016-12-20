@@ -13,13 +13,13 @@
 //   8. Thumbnail
 // 1. Global
 // ---------
-$primary-color: #2199e8;
+$primary-color: #003DA1;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
-$light-gray: #f3f3f3;
-$medium-gray: #cacaca;
+$light-gray: #dddddd;
+$medium-gray: #cccccc;
 $dark-gray: #555555;
 $black: #0a0a0a;
 $white: #ffffff;
@@ -37,7 +37,7 @@ $global-breakpoint: $global-width+$global-gutter;
 // 2. Grid
 // -------
 $grid-column-count: 12;
-$column-padding-bottom: 32px;
+$column-padding-bottom: 23px;
 $container-radius: 0;
 // 3. Block Grid
 // -------------
@@ -63,7 +63,7 @@ $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
 $header-margin-bottom: 10px;
-$paragraph-margin-bottom: 10px;
+$paragraph-margin-bottom: 5px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
 $lead-font-size: $global-font-size * 1.25;
@@ -97,11 +97,11 @@ $button-radius: $global-radius;
 $button-rounded: $global-rounded;
 // 6. Callout
 // ----------
-$callout-background: $white;
+$callout-background: $medium-gray;
 $callout-background-fade: 85%;
-$callout-padding: 10px;
-$callout-margin-bottom: $global-margin;
-$callout-border: 1px solid darken($callout-background, 20%);
+$callout-padding: 10px 0;
+$callout-margin-bottom: 0;
+$callout-border: none;
 $callout-border-secondary: 1px solid darken($secondary-color, 20%);
 $callout-border-success: 1px solid darken($success-color, 20%);
 $callout-border-warning: 1px solid darken($warning-color, 20%);

@@ -11,6 +11,16 @@ html,
     background: #f3f3f3;
 }
 
+.section {
+    border: 1px solid $light-gray;
+    padding: 25px 0;
+}
+
+.footer {
+    background: #cccccc;
+    font-size: 12px !important;
+}
+
 .body-drip {
     border-top: 8px solid #663399;
 }
